@@ -1,6 +1,6 @@
 const http = require('http');
 
 http.createServer(function (req, res) {
-  res.write('<img src="https://raw.githubusercontent.com/enzo-jimenez-mck/nodejs/blob/main/k8s.jfif" />');
+  res.write('<h1>TESTING POD!!</h1>');
   res.end();
 }).listen(8080);
